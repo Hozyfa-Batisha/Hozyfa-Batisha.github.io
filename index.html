@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Terminal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Photo Section -->
+        <div class="photo-section">
+            <div class="photo-content">
+                <img src="PXL_20250730_155205413.NIGHT.jpg" alt="Professional developer portrait with modern office background and green accent lighting" class="developer-image" onerror="this.style.display='none'">
+                <h1 class="developer-name">Hozyfa Batisha</h1>
+                <p class="developer-title">FULL-STACK DEVELOPER</p>
+            </div>
+        </div>
+
+        <!-- Terminal Section -->
+        <div class="terminal-section">
+            <div class="terminal-header">
+                <div class="terminal-title">TERMINAL - PORTFOLIO v1.0</div>
+                <div class="terminal-controls">
+                    <div class="control-btn close"></div>
+                    <div class="control-btn minimize"></div>
+                    <div class="control-btn maximize"></div>
+                </div>
+            </div>
+            
+            <div class="terminal-body" id="terminalOutput">
+                <div class="terminal-output">
+                    <div class="output-line"><span class="response">Welcome to Developer Terminal Portfolio</span></div>
+                    <div class="output-line"><span class="response">System initialized at: <span id="currentTime"></span></span></div>
+                    <div class="output-line"><span class="response">Type 'help' to see available commands</span></div>
+                    <div class="output-line"><span class="response">--------------------------------------------------</span></div>
+                </div>
+                
+                <div class="command-line">
+                    <span class="prompt">user@portfolio:~$</span>
+                    <input type="text" class="command-input" id="commandInput" autofocus>
+                    <span class="typing-cursor"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
