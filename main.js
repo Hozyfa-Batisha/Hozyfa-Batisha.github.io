@@ -18,9 +18,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Skills data
     const skills = {
-        'Frontend': ['HTML5', 'CSS3', 'JavaScript', 'React', 'Vue.js', 'Angular'],
-        'Backend': ['Node.js', 'Python', 'PHP', 'Java', 'Ruby on Rails'],
-        'Database': ['MySQL', 'PostgreSQL', 'MongoDB', 'Redis'],
+        'Frontend': ['HTML5', 'CSS3', 'JavaScript', 'React', 'Angular'],
+        'Backend': ['Node.js', 'Python', 'PHP', 'Go', 'Ruby on Rails'],
+        'Database': ['MySQL', 'PostgreSQL', 'MongoDB'],
         'DevOps': ['Docker', 'Kubernetes', 'AWS', 'Azure'],
         'Tools': ['VS Code', 'Github', 'Git', 'Postman', 'Figma']
     };
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function() {
         addOutputLine('Email: hozyfabatisha@gmail.com', 'response');
         addOutputLine('LinkedIn: linkedin.com/in/hozyfa-batisha', 'response');
         addOutputLine('GitHub: github.com/Hozyfa-Batisha', 'response');
-        addOutputLine('Portfolio: HozyfaBatisha.dev', 'response');
+        // addOutputLine('Portfolio: HozyfaBatisha.dev', 'response');
     }
     
     function showAbout() {
